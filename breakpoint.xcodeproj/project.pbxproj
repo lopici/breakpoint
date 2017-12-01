@@ -8,8 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		01A4E5081FD0E60A002CB6F7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A4E5071FD0E60A002CB6F7 /* AppDelegate.swift */; };
-		01A4E50A1FD0E60A002CB6F7 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A4E5091FD0E60A002CB6F7 /* FirstViewController.swift */; };
-		01A4E50C1FD0E60A002CB6F7 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A4E50B1FD0E60A002CB6F7 /* SecondViewController.swift */; };
+		01A4E50A1FD0E60A002CB6F7 /* FeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A4E5091FD0E60A002CB6F7 /* FeedVC.swift */; };
+		01A4E50C1FD0E60A002CB6F7 /* GroupsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A4E50B1FD0E60A002CB6F7 /* GroupsVC.swift */; };
 		01A4E50F1FD0E60A002CB6F7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01A4E50D1FD0E60A002CB6F7 /* Main.storyboard */; };
 		01A4E5111FD0E60A002CB6F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01A4E5101FD0E60A002CB6F7 /* Assets.xcassets */; };
 		01A4E5141FD0E60A002CB6F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01A4E5121FD0E60A002CB6F7 /* LaunchScreen.storyboard */; };
@@ -26,8 +26,8 @@
 /* Begin PBXFileReference section */
 		01A4E5041FD0E60A002CB6F7 /* breakpoint.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = breakpoint.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		01A4E5071FD0E60A002CB6F7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		01A4E5091FD0E60A002CB6F7 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		01A4E50B1FD0E60A002CB6F7 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		01A4E5091FD0E60A002CB6F7 /* FeedVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedVC.swift; sourceTree = "<group>"; };
+		01A4E50B1FD0E60A002CB6F7 /* GroupsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupsVC.swift; sourceTree = "<group>"; };
 		01A4E50E1FD0E60A002CB6F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		01A4E5101FD0E60A002CB6F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		01A4E5131FD0E60A002CB6F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -95,8 +95,8 @@
 		01A4E51B1FD0E61B002CB6F7 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				01A4E5091FD0E60A002CB6F7 /* FirstViewController.swift */,
-				01A4E50B1FD0E60A002CB6F7 /* SecondViewController.swift */,
+				01A4E5091FD0E60A002CB6F7 /* FeedVC.swift */,
+				01A4E50B1FD0E60A002CB6F7 /* GroupsVC.swift */,
 				01A4E5241FD0FC22002CB6F7 /* AuthVC.swift */,
 				01A4E5261FD0FC5D002CB6F7 /* LoginVC.swift */,
 			);
@@ -289,12 +289,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				01A4E5251FD0FC22002CB6F7 /* AuthVC.swift in Sources */,
-				01A4E50C1FD0E60A002CB6F7 /* SecondViewController.swift in Sources */,
+				01A4E50C1FD0E60A002CB6F7 /* GroupsVC.swift in Sources */,
 				01A4E5271FD0FC5D002CB6F7 /* LoginVC.swift in Sources */,
 				01A4E52D1FD156C0002CB6F7 /* AuthService.swift in Sources */,
 				01A4E5081FD0E60A002CB6F7 /* AppDelegate.swift in Sources */,
 				01A4E52B1FD1001A002CB6F7 /* ShadowView.swift in Sources */,
-				01A4E50A1FD0E60A002CB6F7 /* FirstViewController.swift in Sources */,
+				01A4E50A1FD0E60A002CB6F7 /* FeedVC.swift in Sources */,
 				01A4E5291FD0FCD3002CB6F7 /* InsetTextField.swift in Sources */,
 				01A4E5231FD0EB48002CB6F7 /* DataService.swift in Sources */,
 			);
