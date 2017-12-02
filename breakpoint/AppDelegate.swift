@@ -19,6 +19,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
         FirebaseApp.configure()
         //When no users are logged in, present the login screen
+        //try! Auth.auth().signOut()
+        
         if Auth.auth().currentUser == nil {
             //present LoginVC
             let storyboard = UIStoryboard(name: "Main", bundle: Bundle.main)
