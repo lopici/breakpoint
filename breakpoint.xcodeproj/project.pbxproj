@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		013EB6081FD4189800EDBDE6 /* MeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013EB6071FD4189800EDBDE6 /* MeVC.swift */; };
 		01A4E5081FD0E60A002CB6F7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A4E5071FD0E60A002CB6F7 /* AppDelegate.swift */; };
 		01A4E50A1FD0E60A002CB6F7 /* FeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A4E5091FD0E60A002CB6F7 /* FeedVC.swift */; };
 		01A4E50C1FD0E60A002CB6F7 /* GroupsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A4E50B1FD0E60A002CB6F7 /* GroupsVC.swift */; };
@@ -24,6 +25,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		013EB6071FD4189800EDBDE6 /* MeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeVC.swift; sourceTree = "<group>"; };
 		01A4E5041FD0E60A002CB6F7 /* breakpoint.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = breakpoint.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		01A4E5071FD0E60A002CB6F7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		01A4E5091FD0E60A002CB6F7 /* FeedVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedVC.swift; sourceTree = "<group>"; };
@@ -99,6 +101,7 @@
 				01A4E50B1FD0E60A002CB6F7 /* GroupsVC.swift */,
 				01A4E5241FD0FC22002CB6F7 /* AuthVC.swift */,
 				01A4E5261FD0FC5D002CB6F7 /* LoginVC.swift */,
+				013EB6071FD4189800EDBDE6 /* MeVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -288,6 +291,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				013EB6081FD4189800EDBDE6 /* MeVC.swift in Sources */,
 				01A4E5251FD0FC22002CB6F7 /* AuthVC.swift in Sources */,
 				01A4E50C1FD0E60A002CB6F7 /* GroupsVC.swift in Sources */,
 				01A4E5271FD0FC5D002CB6F7 /* LoginVC.swift in Sources */,
