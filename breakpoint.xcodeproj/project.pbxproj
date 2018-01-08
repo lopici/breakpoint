@@ -26,6 +26,7 @@
 		01A4E52B1FD1001A002CB6F7 /* ShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A4E52A1FD1001A002CB6F7 /* ShadowView.swift */; };
 		01A4E52D1FD156C0002CB6F7 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A4E52C1FD156C0002CB6F7 /* AuthService.swift */; };
 		01A505B21FDBFAAC00F024BE /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A505B11FDBFAAC00F024BE /* Message.swift */; };
+		01BA0E28200384090031E5F8 /* GroupCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01BA0E27200384090031E5F8 /* GroupCell.swift */; };
 		01D3ED581FE140CA003F0E16 /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D3ED571FE140CA003F0E16 /* UserCell.swift */; };
 		5F77B4C2F79BD6EC48641982 /* Pods_breakpoint.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BE841740F73B33D40BD94AD /* Pods_breakpoint.framework */; };
 /* End PBXBuildFile section */
@@ -52,6 +53,7 @@
 		01A4E52A1FD1001A002CB6F7 /* ShadowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShadowView.swift; sourceTree = "<group>"; };
 		01A4E52C1FD156C0002CB6F7 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
 		01A505B11FDBFAAC00F024BE /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		01BA0E27200384090031E5F8 /* GroupCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupCell.swift; sourceTree = "<group>"; };
 		01D3ED571FE140CA003F0E16 /* UserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
 		099DACF4686C6B9A750A91F8 /* Pods-breakpoint.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-breakpoint.debug.xcconfig"; path = "Pods/Target Support Files/Pods-breakpoint/Pods-breakpoint.debug.xcconfig"; sourceTree = "<group>"; };
 		1E675FA85AE1B0474C0F509B /* Pods-breakpoint.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-breakpoint.release.xcconfig"; path = "Pods/Target Support Files/Pods-breakpoint/Pods-breakpoint.release.xcconfig"; sourceTree = "<group>"; };
@@ -143,6 +145,7 @@
 				01A4E52A1FD1001A002CB6F7 /* ShadowView.swift */,
 				01A3FC031FD94CE700244949 /* FeedCell.swift */,
 				01D3ED571FE140CA003F0E16 /* UserCell.swift */,
+				01BA0E27200384090031E5F8 /* GroupCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -312,6 +315,7 @@
 				01A3FC021FD9458200244949 /* UIViewExt.swift in Sources */,
 				01A3FC041FD94CE700244949 /* FeedCell.swift in Sources */,
 				013EB6081FD4189800EDBDE6 /* MeVC.swift in Sources */,
+				01BA0E28200384090031E5F8 /* GroupCell.swift in Sources */,
 				01A4E5251FD0FC22002CB6F7 /* AuthVC.swift in Sources */,
 				01A4E50C1FD0E60A002CB6F7 /* GroupsVC.swift in Sources */,
 				01A4E5271FD0FC5D002CB6F7 /* LoginVC.swift in Sources */,
