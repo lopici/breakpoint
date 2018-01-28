@@ -543,7 +543,7 @@
                                 </constraints>
                             </view>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="100" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="vym-wQ-hmN">
-                                <rect key="frame" x="0.0" y="103" width="375" height="564"/>
+                                <rect key="frame" x="0.0" y="103" width="375" height="504"/>
                                 <color key="backgroundColor" red="0.25490196079999999" green="0.27058823529999998" blue="0.31372549020000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="groupFeedCell" id="CEl-xY-28A" customClass="GroupFeedCell" customModule="breakpoint" customModuleProvider="target">
@@ -644,11 +644,11 @@
                         <constraints>
                             <constraint firstItem="qYE-xb-RWs" firstAttribute="top" secondItem="1t4-J2-sng" secondAttribute="top" id="32e-rL-GEN"/>
                             <constraint firstItem="tca-1N-sV1" firstAttribute="top" secondItem="YCQ-Ej-4mv" secondAttribute="bottom" id="5Yu-X9-lyp"/>
+                            <constraint firstItem="YCQ-Ej-4mv" firstAttribute="top" secondItem="vym-wQ-hmN" secondAttribute="bottom" id="6hi-bA-ZPc"/>
                             <constraint firstAttribute="trailing" secondItem="YCQ-Ej-4mv" secondAttribute="trailing" id="B2A-ME-n8g"/>
                             <constraint firstAttribute="trailing" secondItem="vym-wQ-hmN" secondAttribute="trailing" id="CtH-Yj-ALT"/>
                             <constraint firstAttribute="trailing" secondItem="qYE-xb-RWs" secondAttribute="trailing" id="HVN-nd-NwO"/>
                             <constraint firstItem="OuM-PT-eoc" firstAttribute="leading" secondItem="1t4-J2-sng" secondAttribute="leading" id="MPK-nB-XQb"/>
-                            <constraint firstItem="tca-1N-sV1" firstAttribute="top" secondItem="vym-wQ-hmN" secondAttribute="bottom" id="X2C-at-ghS"/>
                             <constraint firstItem="vym-wQ-hmN" firstAttribute="leading" secondItem="1t4-J2-sng" secondAttribute="leading" id="dHP-YU-jaV"/>
                             <constraint firstItem="qYE-xb-RWs" firstAttribute="leading" secondItem="1t4-J2-sng" secondAttribute="leading" id="gBs-F9-VhM"/>
                             <constraint firstItem="YCQ-Ej-4mv" firstAttribute="leading" secondItem="1t4-J2-sng" secondAttribute="leading" id="gjQ-LE-EEm"/>
@@ -662,7 +662,7 @@
                         <outlet property="membersLbl" destination="OuM-PT-eoc" id="pOk-IB-8mp"/>
                         <outlet property="messageTextField" destination="udQ-W3-bRB" id="Rvt-un-XVz"/>
                         <outlet property="sendBtn" destination="dtb-Kl-e3q" id="YGZ-id-Mwl"/>
-                        <outlet property="sendBtnView" destination="dtb-Kl-e3q" id="uBy-gT-004"/>
+                        <outlet property="sendBtnView" destination="YCQ-Ej-4mv" id="362-dB-TOS"/>
                         <outlet property="tableView" destination="vym-wQ-hmN" id="CMh-BV-PAs"/>
                     </connections>
                 </viewController>
